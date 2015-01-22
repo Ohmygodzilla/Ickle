@@ -1,2 +1,2 @@
 # Beginning
-Making small projects to build my knowledge and skills C:
+Making small projects in Python 3 to build my knowledge and skills C:
