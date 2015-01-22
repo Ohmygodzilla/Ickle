@@ -1,0 +1,36 @@
+print 'Welcome to Pip-pip!'
+
+cat = {
+  'name': 'Fry',
+  'hungry': True,
+  'weight': 5.5,
+  'age': 7,
+  'photo': '(=^o.o^=)__',
+}
+
+mouse = {
+  'name': 'Twitch',
+  'age': 8,
+  'weight': 2,
+  'hungry': False,
+  'photo': '<:3 )~~'
+}
+
+print 'Hello ' + cat['name']
+print cat['photo']
+print 'Hello ' + mouse['name']
+print mouse['photo']
+
+pets = [cat, mouse]
+
+def feed(pet):
+  if pet['hungry'] == True:
+    pet['hungry'] = False
+    pet['weight'] = pet['weight'] + 1
+  else:
+    print 'This pet is not hungry!'
+    
+for pet in pets:
+    feed(pet)
+    
+print pets
